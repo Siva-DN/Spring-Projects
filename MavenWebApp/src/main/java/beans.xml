@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans 
+     xmlns="http://www.springframework.org/schema/beans"
+     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+     xsi:schemaLocation="
+       http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="c1" class=" MavenWeb.MavenWebApp.Car" scope="singleton">
+        <property name="carName" value="shift"/>
+        <property name="carModel" value="classic"/>
+        <property name="carPrice" value="20000"/>
+       
+    </bean>
+
+</beans>
