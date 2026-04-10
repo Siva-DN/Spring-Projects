@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+
+	<bean id="s1" class=" MavenWeb.ConstructorPractice1.Student1">
+
+		<constructor-arg name="sId" value="101" index="0" />
+		<constructor-arg name="sName" value="sree" index="1" />
+		<constructor-arg name="marks" value="99" index="2" />
+		<constructor-arg name="phone" value="12334" index="3"/>
+
+	</bean>
+</beans>
